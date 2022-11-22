@@ -5,6 +5,6 @@ export interface UserProps {
 }
 
 export enum Role {
-  admin = 'Admin',
-  user = 'Adam'
+  admin = 'Adam Agerling',
+  user = 'Mehmet Achmed'
 }

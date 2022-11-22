@@ -6,7 +6,7 @@ import { Role } from './interfaces'
 function App() {
   return (
     <div className='App'>
-      <UserComponent userName={'Fred'} age={32} role={Role.admin} />
+      <UserComponent userName={'Fred'} age={32} role={Role.user} />
     </div>
   )
 }
