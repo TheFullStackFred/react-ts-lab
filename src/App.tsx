@@ -1,14 +1,12 @@
-import React from 'react'
+import React, { FC } from 'react'
 import './App.css'
-import UserComponent from './components/UserComponent'
-import { Role } from './interfaces'
+import { UserComponent } from './components/UserComponent'
+import { Role } from './Enums'
 
-function App() {
+export const App: FC = () => {
   return (
     <div className='App'>
       <UserComponent userName={'Fred'} age={32} role={Role.user} />
     </div>
   )
 }
-
-export default App
