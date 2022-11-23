@@ -1,0 +1,27 @@
+#user-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#user-component .input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#user-component .input-container input[type='text'],
+#user-component .input-container input[type='number'] {
+  outline: none;
+  padding: 5px;
+  margin: 1px;
+}
+
+#user-component .input-container input[type='text']:focus,
+#user-component .input-container input[type='number']:focus {
+  border: 2px solid coral;
+}
+
+#user-component .user-list {
+  display: flex;
+}

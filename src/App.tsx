@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import UserComponent from './components/UserComponent'
+import UserComponent from './Components/UserComponent/UserComponent'
 import { Role } from './Enums'
 
 const App = () => {
