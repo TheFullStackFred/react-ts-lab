@@ -1,8 +1,7 @@
 import React from 'react'
+import { IUserProps } from '../Interfaces'
 
-import { UserProps } from '../Interfaces'
-
-const UserComponent = ({ userName, age, role }: UserProps) => {
+const UserComponent = ({ userName, age, role }: IUserProps) => {
   return (
     <div>
       <h1>User Component</h1>

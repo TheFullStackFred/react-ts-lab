@@ -1,6 +1,6 @@
 import { Role } from './Enums'
 
-export interface UserProps {
+export interface IUserProps {
   userName: string
   age?: number
   role: Role
