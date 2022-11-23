@@ -5,9 +5,9 @@ const UserComponent = ({ userName, age, role }: IUserProps) => {
   return (
     <div>
       <h1>User Component</h1>
-      {userName}
-      {age}
-      {role}
+      <p>{userName}</p>
+      <p>{age}</p>
+      <p>{role}</p>
     </div>
   )
 }
